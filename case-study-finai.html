@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FINAI Case Study | Rachel Aska</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="case-study.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">RA</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Case Study Hero -->
+    <section class="case-study-hero">
+        <div class="container">
+            <a href="projects.html" class="back-link">← Back to Projects</a>
+            
+            <div class="hero-content-case">
+                <img src="images/finai-logo.png" alt="FINAI Logo" class="case-logo">
+                <div class="hero-text-case">
+                    <div class="project-badges">
+                        <span class="badge year">2025</span>
+                    </div>
+                    <h1>FIN-AI: Multi-Model Financial Analysis System</h1>
+                    <p class="hero-subtitle">
+                        AI platform unifying structured financial metrics and unstructured 10-K filings for rapid, 
+                        cited insights that empower CFOs with defensible benchmarking, forecasting, and risk analysis.
+                    </p>
+                    <p class="case-role"><strong>Role:</strong> Client Communication Lead</p>
+                </div>
+            </div>
+
+            <!-- View Poster Button -->
+            <div class="poster-cta">
+                <a href="images/finai-poster.pdf" target="_blank" class="poster-btn">
+                    View GWSB AI Case Competition Poster (PDF)
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Study Content -->
+    <section class="case-study-content">
+        <div class="container">
+
+            <!-- The Challenge -->
+            <div class="case-section">
+                <div class="section-label">01 — The Challenge</div>
+                <h2>The Problem</h2>
+                <p class="large-text">
+                    Finance teams at organizations like Apple waste <strong>500+ hours per reporting cycle</strong> 
+                    on manual data gathering from fragmented silos (SQL databases, Excel sheets, APIs, and scattered 
+                    10-K filings), costing <strong>$60K–$90K annually per analyst</strong>.
+                </p>
+                <p>
+                    This leads to slow, error-prone workflows lacking narrative context—making it hard to link metrics 
+                    to risks, peers, or macro trends—and no centralized tool for non-technical users to query unified, 
+                    audit-ready intelligence.
+                </p>
+
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Hours Wasted Per Cycle</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">$60K-$90K</span>
+                        <span class="stat-label">Cost Per Analyst Annually</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">0</span>
+                        <span class="stat-label">Centralized Intelligence Tools</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The Process -->
+            <div class="case-section">
+                <div class="section-label">02 — The Process</div>
+                <h2>How We Built It</h2>
+                
+                <div class="process-steps">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Discovery & Research</h3>
+                            <p>
+                                Started with stakeholder interviews and workflow mapping to identify pain points; 
+                                researched hybrid RAG/LLM architectures for structured (SQL/Postgres) and unstructured 
+                                (vector search on 10-Ks) data.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Prototyping</h3>
+                            <p>
+                                Prototyped agents in Python with LangGraph for synthesis; iterated on hallucination 
+                                safeguards via citation templates and bias checks.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Validation & Optimization</h3>
+                            <p>
+                                Validated scalability through materialized views and latency testing; finalized with 
+                                tiered pricing model based on usage benchmarks.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Deliverables & Screenshots -->
+            <div class="case-section">
+                <div class="section-label">03 — Deliverables</div>
+                <h2>What We Built</h2>
+                
+                <div class="deliverables-list">
+                    <div class="deliverable-item">
+                        <span class="deliverable-icon">📊</span>
+                        <div>
+                            <h3>End-to-End AI Copilot</h3>
+                            <p>Interactive dashboards for real-time financial/macro visualization</p>
+                        </div>
+                    </div>
+                    <div class="deliverable-item">
+                        <span class="deliverable-icon">📄</span>
+                        <div>
+                            <h3>Automated Report Generation</h3>
+                            <p>Linking cash flows to risks with intelligent synthesis</p>
+                        </div>
+                    </div>
+                    <div class="deliverable-item">
+                        <span class="deliverable-icon">🔗</span>
+                        <div>
+                            <h3>Knowledge Graph</h3>
+                            <p>Company/segment reasoning with relationship mapping</p>
+                        </div>
+                    </div>
+                    <div class="deliverable-item">
+                        <span class="deliverable-icon">⚠️</span>
+                        <div>
+                            <h3>Risk Framework</h3>
+                            <p>SQL-grounded templates for comprehensive risk analysis</p>
+                        </div>
+                    </div>
+                    <div class="deliverable-item">
+                        <span class="deliverable-icon">🗄️</span>
+                        <div>
+                            <h3>Client Setup Scripts</h3>
+                            <p>30+ years of entity data (e.g., Apple's 2023 ERs and Q3 2024 filings)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Screenshots -->
+                <h3 class="screenshots-title">Platform Screenshots</h3>
+                <div class="screenshots-grid">
+                    <div class="screenshot-item">
+                        <img src="images/finai-google-revenue-trend.png" alt="FINAI Dashboard - Revenue Trends">
+                        <p class="screenshot-caption">Google Revenue Trend Analysis with Strong Growth Indicators</p>
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="images/finai-apple-stock-analysis.png" alt="FINAI Dashboard - Stock Analysis">
+                        <p class="screenshot-caption">Apple Stock Price Movement & Historical Analysis</p>
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="images/finai-microsoft-revenue-price.png" alt="FINAI Dashboard - Multi-Metric">
+                        <p class="screenshot-caption">Microsoft Revenue & Closing Price Dual-Metric Visualization</p>
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="images/finai-10k-filing-data.png" alt="FINAI Dashboard - 10-K Data">
+                        <p class="screenshot-caption">10-K Filing Analysis with Cited Financial Metrics</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Results -->
+            <div class="case-section results-section">
+                <div class="section-label">04 — Results & Impact</div>
+                <h2>The Outcome</h2>
+                
+                <div class="results-grid">
+                    <div class="result-card highlight">
+                        <span class="result-icon">⚡</span>
+                        <h3>99% Time Reduction</h3>
+                        <p>From hours of manual review to 1–10 seconds per query</p>
+                    </div>
+                    <div class="result-card highlight">
+                        <span class="result-icon">💰</span>
+                        <h3>$500K–$900K Annual Savings</h3>
+                        <p>Via automation and productivity gains</p>
+                    </div>
+                    <div class="result-card">
+                        <span class="result-icon">📈</span>
+                        <h3>10x Productivity Boost</h3>
+                        <p>2–3 analysts now focus on strategy vs. data prep</p>
+                    </div>
+                    <div class="result-card">
+                        <span class="result-icon">✓</span>
+                        <h3>97–99% Query Success Rate</h3>
+                        <p>At less than 10 seconds latency</p>
+                    </div>
+                    <div class="result-card">
+                        <span class="result-icon">🔍</span>
+                        <h3>Peer Benchmarking</h3>
+                        <p>Across 10+ companies with explicit 10-K citations</p>
+                    </div>
+                    <div class="result-card">
+                        <span class="result-icon">🎯</span>
+                        <h3>Low-Bias Insights</h3>
+                        <p>Citation-backed analysis for defensible decisions</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technologies Used -->
+            <div class="case-section">
+                <div class="section-label">05 — Technologies</div>
+                <h2>Tech Stack</h2>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">NLP</span>
+                    <span class="tech-tag">RAG/LLM</span>
+                    <span class="tech-tag">Machine Learning</span>
+                    <span class="tech-tag">LangGraph</span>
+                    <span class="tech-tag">SQL/PostgreSQL</span>
+                    <span class="tech-tag">Data Visualization</span>
+                    <span class="tech-tag">Business Intelligence</span>
+                    <span class="tech-tag">Financial Modeling</span>
+                    <span class="tech-tag">Risk Management</span>
+                    <span class="tech-tag">FRED API</span>
+                    <span class="tech-tag">IMF API</span>
+                    <span class="tech-tag">World Bank API</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Navigation to Next Project -->
+    <section class="case-navigation">
+        <div class="container">
+            <a href="projects.html" class="nav-projects-btn">← Back to All Projects</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Rachel Aska. Built with care and curiosity.</p>
+    </footer>
+</body>
+</html>
